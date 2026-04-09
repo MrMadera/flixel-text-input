@@ -492,7 +492,7 @@ class FlxBaseTextInput extends FlxText
 		}
 		else
 		{
-			_lastPressTime = currentTime;
+			_lastPressTime = Std.int(currentTime);
 		}
 	}
 
